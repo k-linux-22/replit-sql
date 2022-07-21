@@ -1,5 +1,7 @@
-CREATE TABLE table_name (
-    column1 datatype,
-    column2 datatype,
-    column3 datatype,
+create TABLE Persons(
+    PersonID INT,
+    LastName VARCHAR(255),
+    FirstName VARCHAR(255),
+    Address VARCHAR(255),
+    City VARCHAR(255)
 );
